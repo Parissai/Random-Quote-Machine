@@ -1,0 +1,60 @@
+.quote {
+    width: 50%;
+    height: 200px;
+    font-size: 100%;
+    border: 7px solid #76A4FC;
+    margin: auto;
+    padding: 100px 50px 25px 50px;
+    position: relative;
+    color: #19428F;
+    border-radius: 10px;
+
+}
+
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10%;
+    color: #76A4FC;
+}
+
+.main .quote .fa {
+    height: 40px;
+    width: 40px;
+    font-size: 300%;
+    color: #19428F;
+}
+
+.fa-quote-right {
+    position: absolute;
+    bottom: 110px;
+    right: 30px;
+}
+
+.fa-quote-left {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#another, #tweetQuote {
+    position: absolute;
+    bottom: 50px;    
+    width: 13em;
+    height: 3.5em;
+    border: 2px solid #76A4FC;
+    color: #19428F;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#another {
+    left: 125px;
+}
+
+#tweetQuote {
+    right: 125px;
+    font-size: 76%;
+}
